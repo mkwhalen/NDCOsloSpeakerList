@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.macOS\\NDCOsloSpeakerList.macOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.macOS\\NDCOsloSpeakerList.macOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.macOS\\NDCOsloSpeakerList.macOS.csproj",
+        "projectName": "NDCOsloSpeakerList.macOS",
+        "projectPath": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.macOS\\NDCOsloSpeakerList.macOS.csproj",
+        "packagesPath": "C:\\Users\\mkwwh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.macOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mkwwh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinmac20"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "xamarinmac20": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinmac20": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.0.0-dev.437, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.0.0-dev.437, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

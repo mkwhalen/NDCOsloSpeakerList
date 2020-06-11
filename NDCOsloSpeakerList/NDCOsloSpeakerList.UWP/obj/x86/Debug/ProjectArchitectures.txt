@@ -1,0 +1,1 @@
+C:\Users\mkwwh\source\repos\NDCOsloSpeakerList\NDCOsloSpeakerList\NDCOsloSpeakerList.UWP\NDCOsloSpeakerList.UWP.csproj;x86

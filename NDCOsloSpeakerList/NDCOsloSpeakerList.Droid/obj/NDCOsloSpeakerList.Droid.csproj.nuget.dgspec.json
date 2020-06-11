@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.Droid\\NDCOsloSpeakerList.Droid.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.Droid\\NDCOsloSpeakerList.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.Droid\\NDCOsloSpeakerList.Droid.csproj",
+        "projectName": "NDCOsloSpeakerList.Droid",
+        "projectPath": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.Droid\\NDCOsloSpeakerList.Droid.csproj",
+        "packagesPath": "C:\\Users\\mkwwh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkwwh\\source\\repos\\NDCOsloSpeakerList\\NDCOsloSpeakerList\\NDCOsloSpeakerList.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mkwwh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.0.0-dev.437, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.0.0-dev.437, )"
+            },
+            "Uno.UniversalImageLoader": {
+              "target": "Package",
+              "version": "[1.9.32, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

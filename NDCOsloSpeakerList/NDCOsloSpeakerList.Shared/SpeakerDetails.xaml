@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="NDCOsloSpeakerList.Shared.SpeakerDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NDCOsloSpeakerList.Shared"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+
+		<Image Stretch="Fill" Source="./Assets/front-oslo.jpg" />
+		
+		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+			<TextBlock x:Name="SpeakerName" Margin="10" FontWeight="Bold" FontSize="50" HorizontalAlignment="Center"/>
+			<Image x:Name="SpeakerImage" Margin="10" Height="300" Width="300" HorizontalAlignment="Center"/>
+			<TextBlock x:Name="SessionTitle" Margin="10" FontSize="30" MaxWidth="500" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+			<TextBlock x:Name="SessionSummary" Margin="10" MaxWidth="500" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+		</StackPanel>
+		<Button Click="SpeakerPage_Click" Content="Return to Speakers List" VerticalAlignment="Bottom" />
+	</Grid>
+</Page>

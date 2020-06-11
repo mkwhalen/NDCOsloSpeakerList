@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="NDCOsloSpeakerList.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	xmlns:local="using:NDCOsloSpeakerList.Shared"
+	xmlns:local2="using:NDCOsloSpeakerList.Shared.SpeakerList"
+	mc:Ignorable="d">
+	<Page.Resources>
+		<ResourceDictionary Source="Styles/Styles.xaml"/>
+	</Page.Resources>
+
+	<Grid>
+		<Grid.Resources>
+			<ResourceDictionary>
+				<local:SpeakerList x:Key="SpeakerList" />
+			</ResourceDictionary>
+		</Grid.Resources>
+
+		<Image Stretch="Fill" Source="./Assets/front-oslo.jpg" />
+
+		<TextBlock Text="Hello, NDC!" Margin="20" FontSize="30" />
+
+		<ListView x:Name="speakerListView" ItemsSource="{Binding Source=
+                       {StaticResource SpeakerList}, Path=Speakers}" IsItemClickEnabled="True" ItemClick="SpeakerList_ItemClick" HorizontalAlignment="Center" VerticalAlignment="Center">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<StackPanel>
+						<TextBlock Text="{Binding SpeakerName}" />
+					</StackPanel>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+
+
+		</ListView>
+	</Grid>
+</Page>
